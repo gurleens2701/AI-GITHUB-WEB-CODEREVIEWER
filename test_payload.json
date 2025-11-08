@@ -1,0 +1,13 @@
+{
+  "action": "opened",
+  "pull_request": {
+    "number": 123,
+    "html_url": "https://github.com/testuser/testrepo/pull/123"
+  },
+  "repository": {
+    "owner": {
+      "login": "testuser"
+    },
+    "name": "testrepo"
+  }
+}

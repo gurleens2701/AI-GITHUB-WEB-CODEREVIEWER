@@ -17,5 +17,7 @@ class Settings:
         self.frontend_port: int = int(os.getenv("FRONTEND_PORT", "7819"))
         self.model_name: str = os.getenv("MODEL_NAME", "gpt-4")
         self.temperature: float = float(os.getenv("TEMPERATURE", "0.3"))
+        self.github_token: Optional[str] = os.getenv("GITHUB_TOKEN")
+        self.github_webhook_secret: Optional[str] = os.getenv("GITHUB_WEBHOOK_SECRET")
 
 settings = Settings()
